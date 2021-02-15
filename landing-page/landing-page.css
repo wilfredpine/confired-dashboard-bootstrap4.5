@@ -1,0 +1,95 @@
+/**
+ * __________________________________________________________________
+ *
+ * ConfiRed Dashboard - HTML5, Bootstrap 4.5, Font Awesome 4.5
+ * __________________________________________________________________
+ *
+ * MIT License
+ * 
+ * Copyright (c) 2020 Wilfred V. Pine
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package ConfiRed Dashboard
+ * @author Wilfred V. Pine <only.master.red@gmail.com>
+ * @copyright Copyright 2020 (https://red.confired.com)
+ * @link https://confired.com
+ * @license https://opensource.org/licenses/MIT MIT License
+ */
+.inverse-color, .inverse-color:hover{
+    color: #ffffff;
+}
+.theme-color-bg-light{
+    background-color: #009edd;
+}
+.theme-color-bg-dark{
+    background-color: #163b72;
+}
+.theme-color-bg{
+    background-color: #2c2c2c;
+    /* background-color: #008000; */
+}
+.theme-color-border{
+    /* background-color: #008000; */
+    border-color: #006280;
+}
+.theme-color-font-color{
+    color: #dbdbdb;
+}
+.collapse > ul.navbar-nav > li.active{
+    background-color: #163b72;
+    color: #ffffff;
+}
+.collapse > ul.navbar-nav > li > .theme-color-font-color{
+    font-weight: 700;
+}
+.collapse > ul.navbar-nav > li.active > .theme-color-font-color{
+    color: #ffffff;
+}
+.collapse > ul.navbar-nav > li{
+    border-width: 0px;
+    border-color: #d3eef5;
+}
+.collapse > ul.navbar-nav > li:hover{
+    color: #ffffff;
+    background-color: #163b72;
+    border-width: 0px;
+    border-color: #ffffff;
+}
+.collapse > ul.navbar-nav > li:hover > .theme-color-font-color{
+    color: #ffffff;
+}
+
+
+.btn-cat{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    color: #aaaaaa;
+}
+.btn-cat:hover{
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    color: #838383;
+}
+
+.text-red{
+    color: red
+}

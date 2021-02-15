@@ -1,0 +1,164 @@
+/**
+ * __________________________________________________________________
+ *
+ * ConfiRed Dashboard - HTML5, Bootstrap 4.5, Font Awesome 4.5
+ * __________________________________________________________________
+ *
+ * MIT License
+ * 
+ * Copyright (c) 2020 Wilfred V. Pine
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package ConfiRed Dashboard
+ * @author Wilfred V. Pine <only.master.red@gmail.com>
+ * @copyright Copyright 2020 (https://red.confired.com)
+ * @link https://confired.com
+ * @license https://opensource.org/licenses/MIT MIT License
+ */
+.land-nav{
+  width: 100%;border: none;margin-left: 115px;margin-right: 115px;
+  border-width: 0px;
+}
+.collapse .navbar-collapse{
+  border-width: 0px;
+}
+.navbar{
+  border-width: 0px;
+  
+}
+
+  /* Menu Scroll */
+  .menu-scroll {
+    border-width: 0px;
+  }
+  .menu-scroll > .nav {
+    border-width: 0px;
+  }
+  .menu-scroll > .nav > .nav-link {
+    font-weight: normal;
+    color: #757575;
+    border-width: 0px;
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+  .menu-scroll > .nav > .nav-link:hover {
+    font-weight: normal;
+    color: #080808;
+    border-width: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+
+  .header-banner{
+    height: 80px;padding-left: 110px;padding-top: 10px;
+    border-top: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
+  }
+
+  .logo-title{
+    padding-top: 10px;
+  }
+
+  .logo-maintitle{
+    font-size: 26px;
+    color:white;
+  }
+
+  .logo-subtitle{
+    margin-top: -10px;
+    font-size: 16px;
+  }
+
+  .logo-image{
+    float: left;margin-right: 5px;
+  }
+
+/* .logo-image > img{
+  height: 80px;
+} */
+
+.navigation{
+  /* width: 100%;background-color: #d3eef5;border-bottom-width: 1px;border-color: #bebebe; */
+  width: 100%;background-color: #2457a3;border-bottom-width: 1px;border-color: #181818;
+  /* width: 100%;background-color: #015815;border-bottom-width: 1px;border-color: #181818; */
+
+  padding: 0px 50px 0px 50px;
+}
+
+.navigation-menu{
+  padding-left: 65px;
+}
+
+  @media (max-width: 767.98px) {
+
+    .land-nav{
+      width: 100%;border: none;margin-left: 5px;margin-right: 5px;
+      border-width: 0px;
+      
+    }
+
+    .menu-scroll > .nav{
+      text-align: center;
+    }
+    
+    .header-banner{
+      height: 100px;padding-left: 5px;padding-top: 5px;
+    }
+
+    .logo-title{
+      padding-top: 5px;
+    }
+  
+    .logo-maintitle{
+      font-size: 24px;
+      line-height: 0%;
+    }
+  
+    .logo-subtitle{
+      margin-top: -5px;
+      font-size: 11px;
+    }
+
+    .logo-image > img{
+      height: 60px;
+    }
+
+    .navigation-menu{
+      padding:0px;
+    }
+
+    /* .navigation-button{
+      padding-left: 5px;
+    } */
+
+    .navigation{
+      
+      padding: 0px 0px 0px 0px;
+    }
+
+    .header-banner{
+      /* height: 70px; */
+      height: 120px;
+    }
+  
+  }
+
+ 

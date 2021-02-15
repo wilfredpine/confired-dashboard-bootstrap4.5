@@ -1,0 +1,581 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Wilfred V. Pine">
+      <meta name="description" content="ConfiRed">
+      <title>ConfiRed</title> 
+      <link rel="icon" href="assets/img/ico.png">
+      <!-- Bootstrap core CSS -->
+      <link href="assets/bootstrap-4.5/css/bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+      <link href="assets/custom-css/navbar.css" rel="stylesheet">
+      <link href="assets/custom-css/sidebar.css" rel="stylesheet">
+      <link href="assets/custom-css/skin.css" rel="stylesheet">
+      <link href="assets/custom-css/content.css" rel="stylesheet">
+   </head> 
+  
+   <body> 
+
+   <!-- Container - Fluid -->
+   <div class="container-fluid">
+      <!-- Row -->
+      <div class="row">
+
+        <!-- sidebar -->
+        <nav id="sidebarToggler" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse pt-0 pb-5">
+            <div class="side-logo pb-3 pt-3 pl-2 pr-2">
+              <a href=""><img src="assets/img/brand.png" height="auto" width="100%" alt=""></a>
+            </div>
+            <div class="side-slide-down pb-5">
+              
+              <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="icon fa fa-tachometer pr-1"></i>
+                        Dashboard
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link tree" href="#">
+                          <i class="icon fa fa-edit pr-1"></i>
+                          Form
+                          <!-- <span class="fa fa-caret-down pull-right"></span> -->
+                          <span class="pull-right-container">
+                            <i class="fa fa-angle-down pull-right"></i>
+                          </span>
+                      </a>
+                      <ul class="tree-item-hidden">
+                        <li><a href="form-basic.html"><i class="fa fa-circle-o"></i> Basic</a></li>
+                        <li><a href=""><i class="fa fa-circle-o"></i> JQuery</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="table.html">
+                        <i class="icon fa fa-table pr-1"></i>
+                        Table
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="layout.html">
+                      <i class="icon fa fa-file pr-1"></i>
+                      Layout
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="widgets.html">
+                      <i class="icon fa fa-th pr-1"></i>
+                      Widgets
+                      <span class="badge badge-pill bg-warning align-text-bottom color-white pull-right">11</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart.html">
+                        <i class="icon fa fa-bar-chart pr-1"></i>
+                        Chart
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="ui-element.html">
+                        <i class="icon fa fa-laptop pr-1"></i>
+                        UI Elements
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="calendar.html">
+                        <i class="icon fa fa-calendar pr-1"></i>
+                        Calendar
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mail.html">
+                        <i class="icon fa fa-envelope pr-1"></i>
+                        Mail Box
+                        <span class="badge badge-pill bg-danger align-text-bottom color-white pull-right">14</span>
+                    </a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="startup.html">
+                        <i class="icon fa fa-folder pr-1"></i>
+                        Start up
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i class="icon fa fa-key pr-1"></i>
+                        Sign-in | Sign-up
+                    </a>
+                </li>
+
+                <li class="content px-3 py-2"> 
+                    <span>Monthly Bandwidth Transfer - 20%</span>
+                    <div class="progress progress-mini mt-0 p-0">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        </div>
+                    </div>
+                    <div class="stat">21419.94 / 14000 MB</div>
+                </li>
+                
+              </ul>
+            </div>
+        </nav>
+        <!-- end side bar -->
+
+        <!-- topbar --> 
+        <!-- bg-dark shadow -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top flex-md-nowrap p-0 custom-grid">
+            
+            
+            <!-- Brand Name -->
+            <!-- <a class="navbar-brand mr-auto mr-lg-0 px-3 brand" href="#">
+                <b class="color-blue lab">Red Dashboard</b> <b class="color-white lab">1.0.0</b>
+                <a href="" class="topbar-brand"><img src="assets/img/brand.png" width="auto" alt=""></a>
+            </a> -->
+            <div class="hide-div-brand">
+                <a class="navbar-brand mr-auto mr-lg-0 brand" href="#">
+                    <a href="" class="topbar-brand"><img src="assets/img/brand.png" width="auto" alt=""></a>
+                </a>
+            </div>
+
+            <!-- collapse Toggle Nav -->
+            <button class="navbar-toggler d-md-none btn btn-primary mr-4 pl-2 pr-2 mt-1" type="button" data-toggle="collapse" data-target="#navbarTogglerTop" aria-controls="navbarTogglerTop" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+
+            <!-- collapse navbar -->
+            <div class="collapse navbar-collapse" id="navbarTogglerTop">
+                <ul class="navbar-nav px-0">
+                    <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                    </li> -->
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user"></i>
+                            Welcome Wilfred
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item pl-2" href="#"> <i class="fa fa-user"></i> My Profile</a>
+                            <a class="dropdown-item pl-2" href="#"> <i class="fa fa-check"></i> My Logs</a>
+                            <a class="dropdown-item pl-2" href="login.html"> <i class="fa fa-key"></i> Logout</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-flag"></i>
+                            English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownLang">
+                            <a class="dropdown-item pl-2" href="#"> English</a>
+                            <a class="dropdown-item pl-2" href="#"> Filipino</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> V 1.0.0 </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="menu-scroll">
+                <nav class="nav">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-bell"></i>
+                        Notification
+                        <span class="badge badge-pill bg-success align-text-bottom color-white">2</span>
+                    </a>
+                    <a class="nav-link" href="#"> 
+                        <i class="fa fa-envelope-o"></i> Messages
+                        <span class="badge badge-pill bg-danger align-text-bottom color-white">4</span>
+                    </a>
+                    <a class="nav-link" href="#"> <i class="fa fa-cogs"></i> Settings</a>
+                </nav>
+            </div>
+            
+            <!-- sidebar toogle button -->
+            <div class="navbar-toggler d-md-none sidebar-toggle px-3 bg-dark text-left" >
+            <a href="#" data-toggle="collapse" data-target="#sidebarToggler" aria-controls="sidebarToggler" aria-expanded="false" aria-label="Toggle navigation" class="togs"> <i class="fa fa-bars"></i> Menu</a>
+
+            
+
+            </div>
+        </nav>
+        <!-- end topbar -->
+
+        <!-- Main -->
+        <main role="main" class="main col-md-9 ml-sm-auto col-lg-10 px-md-4">
+
+            <!-- BreadCrumb -->
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href=""><i class="fa fa-home"></i> Home</a></li>
+                    <li class="breadcrumb-item"> UI Elements </li>
+                </ul>
+            </nav>
+            <!-- End BreadCrumb -->
+
+            <!-- title -->
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-0 pb-2 mb-3 border-bottom">
+                <h5 class="h3 color-darkgray mt-0 mb-0"> UI Elements <small>/</small></h5>
+                
+            </div>
+            <!-- end title -->
+
+            <!-- container-fluid -->
+            <div class="container-fluid">
+                <!-- row -->
+                <div class="row pb-4">
+
+                    <!-- col-12 -->
+                    <div class="col-12 p-0 m-0 mt-0">
+                        <!-- Card Deck -->
+                        <div class="card-deck">
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-warning"></i></div>
+                                    <div class="card-label ">Alerts</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                    <div class="alert alert-danger alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <h6><i class="icon fa fa-ban"></i> Alert!</h6>
+                                        Danger alert preview. This alert is dismissable.
+                                    </div>
+                                    <div class="alert alert-info alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <h6><i class="icon fa fa-info"></i> Alert!</h6>
+                                        Info alert preview. This alert is dismissable.
+                                    </div>
+                                    <div class="alert alert-warning alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <h6><i class="icon fa fa-warning"></i> Alert!</h6>
+                                        Warning alert preview. This alert is dismissable.
+                                    </div>
+                                    <div class="alert alert-success alert-dismissible">
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <h6><i class="icon fa fa-check"></i> Alert!</h6>
+                                        Success alert preview. This alert is dismissable.
+                                    </div>
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                
+                                            <div class="widget-box">
+                                                <div class="widget-title">
+                                                  <ul class="nav nav-tabs">
+                                                    <li><a data-toggle="tab" class="active" href="#tab1">Tab1</a></li>
+                                                    <li><a data-toggle="tab" class="" href="#tab2">Tab2</a></li>
+                                                    <li><a data-toggle="tab" class="" href="#tab3">Tab3</a></li>
+                                                  </ul>
+                                                </div>
+                                                <div class="widget-content tab-content p-3">
+                                                  <div id="tab1" class="tab-pane active">
+                                                    <p>And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end. </p>
+                                                  </div>
+                                                  <div id="tab2" class="tab-pane">
+                                                    <p> waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end. </p>
+                                                  </div>
+                                                  <div id="tab3" class="tab-pane">
+                                                    <p>full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end. </p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                
+                                
+                            </div>
+                            <!-- End card -->
+
+
+                        </div>
+                    <!-- End Card Deck -->
+                    </div>
+                    <!-- end col-12 -->
+
+
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End container-fluid -->
+
+
+
+
+            <!-- container-fluid -->
+            <div class="container-fluid">
+                <!-- row -->
+                <div class="row pb-4">
+
+                    <!-- col-12 -->
+                    <div class="col-12 p-0 m-0 mt-0">
+                        <!-- Card Deck -->
+                        <div class="card-deck">
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-warning"></i></div>
+                                    <div class="card-label ">Progress Bar</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                    
+                                    <p class="mb-0">90% Complete</p>
+                                    <div class="progress progress-sm mt-0">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                        
+                                        </div>
+                                    </div>
+
+                                    
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-bullhorn"></i></div>
+                                    <div class="card-label ">Progress bar</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                    
+                                    <p class="mb-0">70% Complete</p>
+                                    <div class="progress progress-sm mt-0">
+                                        <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+
+                        </div>
+                    <!-- End Card Deck -->
+                    </div>
+                    <!-- end col-12 -->
+
+
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End container-fluid -->
+
+
+
+
+
+
+
+
+
+             <!-- container-fluid -->
+             <div class="container-fluid">
+                <!-- row -->
+                <div class="row pb-4">
+
+                    <!-- col-12 -->
+                    <div class="col-12 p-0 m-0 mt-0">
+                        <!-- Card Deck -->
+                        <div class="card-deck">
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-warning"></i></div>
+                                    <div class="card-label ">Collapsible Accordion</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                    <div class="widget-box collapsible">
+
+                                        <div class="widget-title"> 
+                                            <a href="#collapseOne" data-toggle="collapse"> 
+                                                <span class="icon"><i class="fa fa-arrow-right"></i></span>
+                                                <h6>Toggle, Open by default</h6>
+                                            </a> 
+                                        </div>
+                                        <div class="collapse show" id="collapseOne">
+                                          <div class="widget-content"> This box is opened by default </div>
+                                        </div>
+
+                                        <div class="widget-title"> <a href="#collapseTwo" data-toggle="collapse"> <span class="icon"><i class="fa fa-remove"></i></span>
+                                          <h6>Toggle, closed by default</h6>
+                                          </a> 
+                                        </div>
+                                        <div class="collapse" id="collapseTwo">
+                                          <div class="widget-content"> This box is now open </div>
+                                        </div>
+
+                                        <div class="widget-title"> <a href="#collapseThree" data-toggle="collapse"> <span class="icon"><i class="fa fa-remove"></i></span>
+                                          <h6>Toggle, closed by default</h6>
+                                          </a> 
+                                        </div>
+                                        <div class="collapse" id="collapseThree">
+                                          <div class="widget-content"> This box is now open </div>
+                                        </div>
+
+                                    </div>
+                                    
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-bullhorn"></i></div>
+                                    <div class="card-label ">Buttons</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                    <tr>
+                                        <td>
+                                          <button type="button" class="btn btn-lg btn-success">success</button>
+                                        </td>
+                                        <td>
+                                          <button type="button" class="btn btn-warning">warning</button>
+                                        </td>
+                                        <td>
+                                          <button type="button" class="btn btn-danger btn-md">danger</button>
+                                        </td>
+                                        <td>
+                                          <button type="button" class="btn btn-info btn-sm">Info</button>
+                                        </td>
+                                        <td>
+                                          <button type="button" class="btn btn-primary btn-mini">primary</button>
+                                        </td>
+                                        <td>
+                                          <button type="button" class="btn btn-secondary btn-mini disabled">secondary</button>
+                                        </td>
+                                      </tr>
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+
+                        </div>
+                    <!-- End Card Deck -->
+                    </div>
+                    <!-- end col-12 -->
+
+
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End container-fluid -->
+
+
+
+
+
+             <!-- container-fluid -->
+             <div class="container-fluid">
+                <!-- row -->
+                <div class="row pb-4">
+
+                    <!-- col-12 -->
+                    <div class="col-12 p-0 m-0 mt-0">
+                        <!-- Card Deck -->
+                        <div class="card-deck">
+                            <!-- card -->
+                            <div class="card border-top-bottom-blue">  <!-- <div class="card text-white bg-dark"> -->
+                                <!-- card header -->
+                                <div class="card-header p-0">
+                                    <div class="card-icon "><i class="fa fa-globe"></i></div>
+                                    <div class="card-label ">Font Awesome</div>
+                                </div>
+                                <!-- End card header -->
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+
+                                    
+
+
+                                
+                                </div>
+                                <!-- End Card Body -->
+                            </div>
+                            <!-- End card -->
+
+
+                        </div>
+                    <!-- End Card Deck -->
+                    </div>
+                    <!-- end col-12 -->
+
+
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End container-fluid -->
+
+
+            
+
+
+            
+
+            <!-- Footer -->
+            <footer class="footer mt-auto px-5 py-2 bg-white border-top footer" >
+                <div class="container">
+                <span class="text-muted"> &copy; 2020 | </span> <a target="_blank" href="https://confired.com/">ConfiRed</a>
+                <br>
+                <a href="">Terms & Condition</a> | <a href="">Data Privacy</a> | <a href="">Disclaimer</a> | <a href="https://dev.confired.com/">Developers</a>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+        </main>
+        <!-- End Main -->
+
+
+        
+    </div>
+    <!-- End Row -->
+  </div>
+  <!-- End Container - Fluid -->
+
+<!-- https://code.jquery.com/jquery-3.5.1.min.js -->
+<script src="assets/js/jquery.slim.min.js"></script>
+  <script src="assets/bootstrap-4.5/js/bootstrap.bundle.js"></script>
+
+  <script src="assets/js/Chart.js"></script>
+  <script src="assets/js/custom.js"></script>
+  
+ </body> 
+</html> 

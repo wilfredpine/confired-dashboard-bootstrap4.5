@@ -1,0 +1,33 @@
+  
+
+  /* Menu Scroll */
+  .menu-scroll {
+    position: relative;
+    overflow-y: hidden;
+    height: 2.75rem;
+    z-index: 2;
+  }
+  .menu-scroll .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav .active {
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .navbar-toggler > a.togs{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+ 
