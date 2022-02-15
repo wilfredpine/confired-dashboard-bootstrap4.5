@@ -8,4 +8,4 @@ Dashboard | HTML5, Bootstrap 4.5, Font Awesome 4.5
 [https://dashboard.confired.com](https://dashboard.confired.com)
 
 ## License
-[MIT](https://github.com/redmalmon/confired-dashboard/blob/main/LICENSE)
+[MIT](https://github.com/wilfredpine/confired-dashboard/blob/main/LICENSE)
